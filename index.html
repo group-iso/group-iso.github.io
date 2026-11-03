@@ -7,6 +7,8 @@
   <style>
     body { max-width: 40rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; color: #111; background: #fff; }
     a { overflow-wrap: anywhere; }
+    .notes li { margin-bottom: 0.75rem; }
+    .math { white-space: nowrap; }
   </style>
 </head>
 <body>
@@ -17,14 +19,15 @@
     <h2>The main paper</h2>
     <p><a href="main.pdf">main.pdf</a></p>
 
-    <h2>GPT generated files</h2>
-    <ul>
-      <li><a href="TI_analytic_rank.pdf">TI_analytic_rank.pdf</a></li>
-      <li><a href="TI_tilde_n_to_4over3_odd.pdf">TI_tilde_n_to_4over3_odd.pdf</a></li>
-      <li><a href="TI_tilde_n_odd.pdf">TI_tilde_n_odd.pdf</a></li>
-      <li><a href="TI_n_odd.pdf">TI_n_odd.pdf</a></li>
-      <li><a href="TI_n_char2.pdf">TI_n_char2.pdf</a></li>
-      <li><a href="GI_poly.pdf">GI_poly.pdf</a></li>
+    <h2>GPT-generated papers</h2>
+    <p>Here, <i>n</i> denotes the largest tensor dimension, <i>q</i> the field size, and <i>a</i> the analytic rank of the source tensor.</p>
+    <ul class="notes">
+      <li>This AI-generated note presents a Las Vegas algorithm for three-tensor isomorphism over finite fields of odd characteristic with expected running time <span class="math"><i>q</i><sup>O(<i>n</i>+<i>a</i><sup>2</sup>)</sup> poly(<i>n</i>, log <i>q</i>)</span>. <a href="TI_analytic_rank.pdf">[PDF]</a></li>
+      <li>This AI-generated note presents a deterministic algorithm for three-tensor isomorphism over finite fields of odd characteristic in <span class="math"><i>q</i><sup>O(<i>n</i><sup>4/3</sup> log(<i>n</i>+2))</sup></span> time. <a href="TI_tilde_n_to_4over3_odd.pdf">[PDF]</a></li>
+      <li>This AI-generated note presents a deterministic algorithm for three-tensor isomorphism over finite fields of odd characteristic in <span class="math"><i>q</i><sup>O(<i>n</i> log(<i>n</i>+2))</sup></span> time. <a href="TI_tilde_n_odd.pdf">[PDF]</a></li>
+      <li>This AI-generated note presents a deterministic algorithm for three-tensor isomorphism over finite fields of odd characteristic in <span class="math"><i>q</i><sup>O(<i>n</i>)</sup></span> time. <a href="TI_n_odd.pdf">[PDF]</a></li>
+      <li>This AI-generated note presents a deterministic algorithm for three-tensor isomorphism over finite fields of characteristic two in <span class="math"><i>q</i><sup>O(<i>n</i>)</sup></span> time. <a href="TI_n_char2.pdf">[PDF]</a></li>
+      <li>This AI-generated note presents a deterministic algorithm for isomorphism of finite groups given by multiplication tables, running in time polynomial in the group order. <a href="GI_poly.pdf">[PDF]</a></li>
     </ul>
 
     <h2>Activities</h2>
