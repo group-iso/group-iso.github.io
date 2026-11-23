@@ -17,7 +17,17 @@
     <p>This is a webpage for the group isomorphism in time polynomial in group order result.</p>
 
     <h2>The Main Paper</h2>
-    <p><a href="main.pdf">main.pdf</a></p>
+    <p><a href="main.pdf"> Main paper (Date: 3 November, 2026) </a></p>
+
+    <h2>Activities</h2>
+    <ul>
+      <li>All talks will be recorded and the links to videos will be put here.</li>
+      <li>Chuanqi gave an online talk at 4 PM AEDT (GMT+11) on Nov 20, 2026 (<a href="https://youtu.be/XcLX9ecC8yw">Recording</a>, <a href="https://group-iso.github.io/GpI_Tut1_slides.pdf">Slides</a>)</li>
+      <li>Youming will give an online talk at 4 PM AEDT (GMT+11) on Nov 27, 2026 (<a href="https://utsmeet.zoom.us/j/87986897282">Zoom link</a>)</li>
+      <li>Youming will give an online talk on Dec 11, 2026 (detailed information TBC)</li>
+      <li>Chuanqi will give two online talks in January, 2027 (detailed information TBC) </li>
+      <li>Youming will give two online talks in February, 2027 (detailed information TBC) </li>
+    </ul>
 
     <h2>An Overview of Human–AI Interaction Process</h2>
     <ul class="notes">
@@ -27,14 +37,6 @@
       <li>We noticed that an earlier improvement from \(q^{O(n^{4/3}\log(n+2))}\) to \(q^{O(n^{4/3})}\) was due to a revised potential function and selection rule. We therefore asked ChatGPT whether a similar idea could remove the logarithmic overhead from the \(q^{O(n\log(n+2))}\)-time algorithm and yield a \(q^{O(n)}\) bound. This guidance led to further work on a global amortization argument and recursive algorithm, eventually resulting in a note presenting a deterministic \(q^{O(n)}\)-time algorithm for three-tensor isomorphism over finite fields of odd characteristic. <a href="TI_n_odd.pdf">[PDF]</a></li>
       <li>We provided a FOCS '26 paper (Grochow--Ivanyos--Qiao--Sun, after it appeared on <a href="https://arxiv.org/abs/2610.00874">arXiv</a>) as a reference and asked ChatGPT to improve the worst-case running time for quadratic-form tuple isometry in characteristic two. We then asked whether this line of work could be extended to three-tensor isomorphism in characteristic two. This guidance led to a note presenting a deterministic \(q^{O(n)}\)-time algorithm for three-tensor isomorphism over finite fields of characteristic two. <a href="TI_n_char2.pdf">[PDF]</a></li>
       <li>The connection between 3TI over fields of characteristic 2 and group isomorphism is trickier than the odd counterpart. Still, given <a href="TI_n_char2.pdf">the AI-generated note</a>, the 2-groups of Frattini class 2 should be within reach, so we asked GPT to work on that, and GPT gave a positive result. We then requested GPT to consider more general group classes, including p-groups and groups with non-trivial solvable radicals. During this process, ChatGPT identified the group extension and cohomology approach. This sustained guidance culminated in a note proposing a deterministic algorithm for arbitrary finite groups given by multiplication tables, with running time polynomial in the group order, drawing on the degree-3 quotient tensor module transporter (that appears in <a href="main.pdf">our current draft</a>), group-extension methods, and cohomology. <a href="GI_poly.pdf">[PDF]</a></li>
-    </ul>
-
-    <h2>Activities</h2>
-    <ul>
-      <li>All talks will be recorded and the links to videos will be put here.</li>
-      <li>Chuanqi gave an online talk at 4 PM AEDT (GMT+11) on Nov 20, 2026 (<a href="https://youtu.be/XcLX9ecC8yw">Recording</a>, <a href="https://group-iso.github.io/GpI_Tut1_slides.pdf">Slides</a>)</li>
-      <li>Youming will give an online talk at 4 PM AEDT (GMT+11) on Nov 27, 2026 (<a href="https://utsmeet.zoom.us/j/87986897282">Zoom link</a>)</li>
-      <li>Youming will give an online talk on Dec 11, 2026 (TBC)</li>
     </ul>
 
     <h2>Lean Verification</h2>
